@@ -1,0 +1,26 @@
+# ---- Keil / MDK build artifacts (unanchored: match at any depth) ----
+*.axf
+*.hex
+*.o
+*.d
+*.crf
+*.dep
+*.lnp
+*.map
+*.build_log.htm
+*.uvguix.*
+*.bak
+
+# ---- MDK output folders ----
+**/MDK-ARM/work1/
+**/MDK-ARM/work2/
+**/MDK-ARM/task1/
+**/MDK-ARM/LED_test/
+**/MDK-ARM/Objects/
+**/MDK-ARM/Listings/
+
+# ---- local scratch / practice projects (delete these lines to include them) ----
+_ac5_verify/
+work1_*/
+task1/
+LED_test/
